@@ -1,23 +1,25 @@
-# Awesome_Books
+# Awesome books: plain JavaScript with objects
 
-In this project, We built a basic website that allows users to add/remove books from a list, we learnt how to manage data using JavaScript
+> In this project, I and my code partner built a basic website that allows users to add/remove books from a list. We achieve that by using JavaScript objects and arrays. Also, we use dynamically modify the DOM and add basic events.
+
+
+Additional description about the project and its features.
 
 ## Built With
+- HTML, CSS, JS
+- Linters, Node.js, Git, Flexbox
 
-- Html5
-- Css3
-- Javascript
+To get a local copy up and running follow these simple example steps.
+- On your terminal and run the following command to clone the repository
+  
+  `git@github.com:Fanger53/books.git`
 
-## Getting Started
+## Live Demo
 
-To get a local copy up and running follow these simple example steps:
+[Live Demo Link](https://raw.githack.com/Fanger53/books/js-objects/index.html)
 
-- Copy this link
-- Open your terminal or command line
-- Run git clone and Paste the link
-- Open the folder with your code editor
 
-## 👥 Authors
+## Author
 
 👤 **David Leonardo Castillo R**
 
@@ -25,26 +27,18 @@ To get a local copy up and running follow these simple example steps:
 - Twitter: [@David Castillo](https://twitter.com/DavidLe97005129)
 - Linkedin: [@David Castillo](https://www.linkedin.com/in/david-castillo-61ba10b8/)
 
-👤 **Shakiru Olagunju**
 
-- Github: [@githubhandle](https://github.com/Gunjuzone)
-- Twitter: [@twitterhandle](https://twitter.com/Gunjuzone)
-- Linkedin: [ LinkedIn](https://www.linkedin.com/in/shakiru-olagunju-775034161/)
-
-
-
-## 🤝 Contributions
-
+## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Fanger53/restaurant-webpack/issues).
+Feel free to check the [issues](https://github.com/Fanger53/books/issues) page.
 
-
-## ⭐ Show your support
+## Show your support
 
 Give a ⭐️ if you like this project!
 
 
+
 ## 📝 License
 
-This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+This project is [MIT](./MIT.md) licensed.
