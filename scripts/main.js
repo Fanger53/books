@@ -26,3 +26,28 @@ const displayBooks = () => {
   });
 };
 
+const addBook = (e) => {
+  retrievedBooks = JSON.parse(localStorage.getItem('books'));
+  e.preventDefault();
+  const title = titleInput.value;
+  const author = authorInput.value;
+  const book = {
+    title,
+    author,
+  };
+  book.id = Math.floor(Math.random() * (100 - 1 + 1)) + 1;
+  retrievedBooks.push(book);
+  localStorage.setItem('books', JSON.stringify(retrievedBooks));
+  titleInput.value = '';
+  authorInput.value = '';
+  const div = document.createElement('div');
+  div.classList.add('book');
+  div.dataset.id = book.id;
+  div.innerHTML = `
+    <h5>${book.title}</h5>  
+    <p>${book.author}</p>  
+    <button class="remove">remove</button>
+    <hr>
+  `;
+  booksList.appendChild(div);
+};
