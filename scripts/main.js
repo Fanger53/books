@@ -10,3 +10,19 @@ if (localStorage.getItem('books') === null) {
 } else {
   retrievedBooks = JSON.parse(localStorage.getItem('books'));
 }
+
+const displayBooks = () => {
+  retrievedBooks = JSON.parse(localStorage.getItem('books'));
+  retrievedBooks.forEach((book) => {
+    const div = document.createElement('div');
+    div.classList.add('book');
+    div.innerHTML = `
+    <h5>${book.title}</h5>  
+    <p>${book.author}</p>  
+    <button class="remove">remove</button>
+    <hr>
+  `;
+    booksList.appendChild(div);
+  });
+};
+
