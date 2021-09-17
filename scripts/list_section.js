@@ -1,4 +1,5 @@
-export default class ListSection {
+// eslint-disable-next-line no-unused-vars
+class ListSection {
   constructor() {
     this.form = document.querySelector('form');
     this.bookList = document.getElementById('book-list');

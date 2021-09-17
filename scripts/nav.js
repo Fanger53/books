@@ -1,4 +1,5 @@
-export default class Nav {
+// eslint-disable-next-line no-unused-vars
+class Nav {
   constructor() {
     this.nav = document.querySelector('nav');
   }
